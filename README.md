@@ -1,4 +1,4 @@
-# Server CRUD MySQL with Express JS - React
+# Server CRUD MySQL with Express - React
 
 - Server Aplikasi CRUD Restfull API + MySQL 
 
