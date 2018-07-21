@@ -1,33 +1,25 @@
 {
-  "name": "express-manual",
-  "version": "1.0.0",
-  "description": "Membuat website dengan framework expressjs\u001b[H\u001b[D\u001b[D",
-  "main": "\u001b[B\u001b[B\u001b[1;5B\u001b[1;5B\u001b[1;5B\u001b[1;5B\u001b[1;5B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[H\u001b[1;5F\u001b[1;5F\u001b[F\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[2~membuat website dengan framework expressjs dengan 3 halaman, home, kontak dan sukses",
+  "name": "server-mysql-app1",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node ./bin/www"
   },
-  "keywords": [
-    "expressjs"
-  ],
-  "author": "FariMFM",
-  "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
-    "connect-flash": "^0.1.1",
-    "cookie-parser": "^1.4.3",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "cookie-parser": "~1.4.3",
     "cors": "^2.8.4",
-    "ejs": "^2.6.1",
-    "express": "^4.16.3",
-    "express-session": "^1.15.6",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
     "faker": "^4.1.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
     "mysql": "^2.15.0",
     "mysql2": "^1.5.3",
-    "pg": "^7.4.3",
     "sequelize": "^4.34.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MuhammadFariMadyan/crud-express-mysql.git"
   }
 }

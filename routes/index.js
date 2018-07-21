@@ -1,8 +1,9 @@
-const router = require('express').Router();
-const Op = require('sequelize').Op;
+var express = require('express');
+var router = express.Router();
 
-router.get('/', (req, res, next) => {
-    res.json({ message: 'Welcome to Portal Siswa'})
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  res.json({ message: 'Welcome to Portal Siswa'})
 });
 
 module.exports = router;

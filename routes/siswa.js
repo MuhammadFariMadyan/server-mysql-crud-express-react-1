@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Op = require('sequelize').Op
-const { all, find, create, update, destroy } = require('../controllers/siswaControllerApi.js')
+const { all, find, create, update, destroy } = require('../controllers/SiswaControllerApi.js')
 
   // 1 get all data siswa
   router.get('/', all);
